@@ -16,7 +16,8 @@
           class="ru.spring.JazzMusic"
     >
     </bean>
-    <bean id="musicPlayer1" class="ru.spring.MusicPlayer">
+
+    <bean id="musicPlayerList" class="ru.spring.MusicPlayer">
         <constructor-arg>
             <list>
                 <ref bean="musicBean1"/>
@@ -26,7 +27,8 @@
     </bean>
 
     <bean id="musicPlayer"
-        class="ru.spring.MusicPlayer">
+        class="ru.spring.MusicPlayer"
+        scope="prototype">
         <property name="music" ref="musicBean1"/>
 
         <property name="name" value="${musicPlayer.name}"/>
