@@ -10,30 +10,31 @@
 
     <bean id="musicBean1"
           class="ru.spring.ClassicalMusic"
-            >
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="getClassicalMusic">
     </bean>
-    <bean id="musicBean2"
-          class="ru.spring.JazzMusic"
-    >
-    </bean>
+<!--    <bean id="musicBean2"-->
+<!--          class="ru.spring.JazzMusic">-->
+<!--    </bean>-->
 
-    <bean id="musicPlayerList" class="ru.spring.MusicPlayer">
-        <constructor-arg>
-            <list>
-                <ref bean="musicBean1"/>
-                <ref bean="musicBean2"/>
-            </list>
-        </constructor-arg>
-    </bean>
+<!--    <bean id="musicPlayerList" class="ru.spring.MusicPlayer">-->
+<!--        <constructor-arg>-->
+<!--            <list>-->
+<!--                <ref bean="musicBean1"/>-->
+<!--                <ref bean="musicBean2"/>-->
+<!--            </list>-->
+<!--        </constructor-arg>-->
+<!--    </bean>-->
 
-    <bean id="musicPlayer"
-        class="ru.spring.MusicPlayer"
-        scope="prototype">
-        <property name="music" ref="musicBean1"/>
+<!--    <bean id="musicPlayer"-->
+<!--        class="ru.spring.MusicPlayer"-->
+<!--        scope="prototype">-->
+<!--        <property name="music" ref="musicBean1"/>-->
 
-        <property name="name" value="${musicPlayer.name}"/>
-        <property name="volume" value="${musicPlayer.volume}" />
-    </bean>
+<!--        <property name="name" value="${musicPlayer.name}"/>-->
+<!--        <property name="volume" value="${musicPlayer.volume}" />-->
+<!--    </bean>-->
 
 
 
