@@ -5,22 +5,30 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+import java.util.Random;
+
 @Component
 public class MusicPlayer {
-    private Music music1;
-    private Music music2;
+    private ClassicalMusic classicalMusic;
+    private RockMusic rockMusic;
 
     @Autowired
-    public MusicPlayer(
-            @Qualifier("someRockMusic") Music music1,
-            @Qualifier("classicalMusic") Music music2) {
-        this.music1 = music1;
-        this.music2 = music2;
+    public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic) {
+        this.classicalMusic = classicalMusic;
+        this.rockMusic = rockMusic;
     }
 
-    public String playMusic() {
-       return "Playing: " + music1.getSong() + ", " + music2.getSong();
-   }
+    public void playMusic(MusicEnum musicEnum) {
+        Random rand = new Random();
+        int randNumber = rand.nextInt(3);
+
+        if (musicEnum == MusicEnum.ROCK) {
+            System.out.println(rockMusic.getSongs().get(randNumber));
+        }else {
+            System.out.println(classicalMusic.getSongs().get(randNumber));
+        }
+
+    }
 
 
 }
