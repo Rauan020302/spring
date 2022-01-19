@@ -9,7 +9,6 @@ import org.springframework.validation.annotation.Validated;
 
 import java.util.Random;
 
-@Component
 public class MusicPlayer {
     @Value("${musicPlayer.name}")
     private String name;
@@ -22,34 +21,17 @@ public class MusicPlayer {
     public String getName() {
         return name;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getVolume() {
         return volume;
     }
 
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
-
-    @Autowired
     public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic) {
         this.classicalMusic = classicalMusic;
         this.rockMusic = rockMusic;
     }
 
-    public void playMusic(MusicEnum musicEnum) {
-        Random rand = new Random();
-        int randNumber = rand.nextInt(3);
-
-        if (musicEnum == MusicEnum.ROCK) {
-            System.out.println(rockMusic.getSongs().get(randNumber));
-        }else {
-            System.out.println(classicalMusic.getSongs().get(randNumber));
-        }
+    public String playMusic() {
+        return "Playing: " + classicalMusic.getSong() + ", " + rockMusic.getSong();
 
     }
 
