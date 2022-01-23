@@ -25,17 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c73211eb-dca0-46c7-82ad-f417fa27916d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/springcourse/config/MySpringMVCDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/springcourse/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/springcourse/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springMVC/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/springMVC/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springMVC/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/springMVC/WEB-INF/views/people/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springMVC/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/springMVC/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springMVC/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/springMVC/WEB-INF/views/people/show.html" afterDir="false" />
@@ -298,7 +292,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642588178176</updated>
       <workItem from="1642588181873" duration="420000" />
-      <workItem from="1642588616162" duration="26680000" />
+      <workItem from="1642588616162" duration="29277000" />
     </task>
     <task id="LOCAL-00001" summary="Spring MVC first webApp">
       <created>1642614226101</created>
@@ -356,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642847535445</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="JDBC Api PostgreSQL">
+      <created>1642942824424</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642942824425</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +385,8 @@
     <MESSAGE value="Spring CRUD REST Pattern DAO (Data Access Object)" />
     <MESSAGE value="Annotation ModelAttribute HTML forms (Thymeleaf)" />
     <MESSAGE value="CRUD methods: Patch and Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD methods: Patch and Delete" />
+    <MESSAGE value="JDBC Api PostgreSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Api PostgreSQL" />
   </component>
   <component name="WindowStateProjectService">
     <state x="772" y="220" key="#BuildArtifactsBeforeRunChooser" timestamp="1642589265432">
@@ -395,6 +397,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1642879129190" />
+    <state x="413" y="257" key="#SQL_Dialects" timestamp="1642944649100">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="413" y="257" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1642944649100" />
     <state x="771" y="293" key="#TomEE_Server" timestamp="1642589698925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -427,54 +433,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="771" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1642590234392" />
-    <state width="485" height="453" key="GridCell.Tab.0.bottom" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.0.bottom" timestamp="1642945369916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.0.center" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642945369916" />
+    <state width="1024" height="453" key="GridCell.Tab.0.center" timestamp="1642945369915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.0.left" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642945369915" />
+    <state width="1024" height="453" key="GridCell.Tab.0.left" timestamp="1642945369915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.0.right" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642945369915" />
+    <state width="1024" height="453" key="GridCell.Tab.0.right" timestamp="1642945369915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.1.bottom" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642945369915" />
+    <state width="1024" height="453" key="GridCell.Tab.1.bottom" timestamp="1642945369917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.1.center" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642945369917" />
+    <state width="1024" height="453" key="GridCell.Tab.1.center" timestamp="1642945369917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.1.left" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1642945369917" />
+    <state width="1024" height="453" key="GridCell.Tab.1.left" timestamp="1642945369917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.1.right" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1642945369917" />
+    <state width="1024" height="453" key="GridCell.Tab.1.right" timestamp="1642945369917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.2.bottom" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1642945369917" />
+    <state width="1024" height="453" key="GridCell.Tab.2.bottom" timestamp="1642945369917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.2.center" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642945369917" />
+    <state width="1024" height="453" key="GridCell.Tab.2.center" timestamp="1642945369916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.2.left" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1642945369916" />
+    <state width="1024" height="453" key="GridCell.Tab.2.left" timestamp="1642945369916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
-    <state width="485" height="453" key="GridCell.Tab.2.right" timestamp="1642942739343">
+    <state width="1024" height="453" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1642945369916" />
+    <state width="1024" height="453" key="GridCell.Tab.2.right" timestamp="1642945369916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="485" height="453" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1642942739343" />
+    <state width="1024" height="453" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1642945369916" />
     <state width="485" height="594" key="GridCell.Tab.3.bottom" timestamp="1642845541961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -499,9 +505,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="501" y="60" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1642937883320" />
-    <state x="722" y="135" key="Vcs.Push.Dialog.v2" timestamp="1642847537944">
+    <state x="722" y="135" key="Vcs.Push.Dialog.v2" timestamp="1642942826140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1642847537944" />
+    <state x="722" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1642942826140" />
   </component>
 </project>
