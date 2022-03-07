@@ -1,82 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="576812f9-60c6-499d-8fed-792369b0650c" name="Default Changelist" comment="" />
+    <list default="true" id="3e21bbb2-b822-42c3-9d0b-56e3d234f66b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/controller/UserRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/entity/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/entity/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/exceptions/AuthorizationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/exceptions/Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/exceptions/ExceptionsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/exceptions/ObjectsNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/model/AuthModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/model/SignUpModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/model/UserRoleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/repository/UserRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/service/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/service/impl/ImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andersen/library/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="23pbe3taMUpDh8OY0UgLSVKMner" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="25yYaO7EWYXpzCACdq9XwmFFA7S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="untitled104" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration name="LibraryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.andersen.library.LibraryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,12 +117,77 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="576812f9-60c6-499d-8fed-792369b0650c" name="Default Changelist" comment="" />
-      <created>1642434067853</created>
+      <changelist id="3e21bbb2-b822-42c3-9d0b-56e3d234f66b" name="Default Changelist" comment="" />
+      <created>1646500855078</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642434067853</updated>
+      <updated>1646500855078</updated>
+      <workItem from="1646500860745" duration="17822000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="637" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646658823826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="637" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1646658823826" />
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1646659340313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1646659340313" />
+    <state x="936" y="284" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1646661763146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="936" y="284" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1646661763146" />
+    <state width="723" height="425" key="GridCell.Tab.0.bottom" timestamp="1646667024901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="425" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1646667024901" />
+    <state width="723" height="425" key="GridCell.Tab.0.center" timestamp="1646667024901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="425" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1646667024901" />
+    <state width="723" height="425" key="GridCell.Tab.0.left" timestamp="1646667024901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="425" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1646667024901" />
+    <state width="723" height="425" key="GridCell.Tab.0.right" timestamp="1646667024901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="425" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1646667024901" />
+    <state width="723" height="425" key="GridCell.Tab.1.bottom" timestamp="1646667024903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="425" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1646667024903" />
+    <state width="723" height="425" key="GridCell.Tab.1.center" timestamp="1646667024902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="425" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1646667024902" />
+    <state width="723" height="425" key="GridCell.Tab.1.left" timestamp="1646667024901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="425" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1646667024901" />
+    <state width="723" height="425" key="GridCell.Tab.1.right" timestamp="1646667024902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="425" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1646667024902" />
+    <state x="612" y="247" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1646658854768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="612" y="247" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1646658854768" />
   </component>
 </project>
